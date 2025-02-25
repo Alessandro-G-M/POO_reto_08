@@ -30,8 +30,6 @@ class OrderIter:
             return item
         else:
             raise StopIteration
-    
-
 
 
 class MenuItem:
@@ -78,8 +76,6 @@ class Desserts(MenuItem):
             price += 1200
         super().__init__(name, price)
         self.topping = topping.upper()
-
-
 
 
 #! MAIN
